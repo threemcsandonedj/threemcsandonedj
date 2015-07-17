@@ -1,10 +1,8 @@
-@import url("reset.css");
-@import url("global-forms.css");
 
 /***** Global *****/
 /* Body */
 body {
-    background: #f5f4ef;
+    background: #888;
     color: #000305;
     font-size: 87.5%; /* 14px */
     font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -12,5 +10,83 @@ body {
     margin: 0;
     padding: 0;
     text-align: left;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+strong {
+    font-variant: small-caps;
+}
+
+#top{
+    background: #444
+    border-bottom-left: 5px;
+    border-bottom-right: 5px;   
+}
+.body{
+    clear: both;
+    margin: 0 auto;
+    width: 800px;
+}
+
+/* Navigation */
+nav{
+    /*background: #000305;*/
+    font-size: 1.143em;
+    height: 40px;
+    line-height: 30px;
+    margin: 0 auto 2em auto;
+    padding: 0;
+    text-align: center;
+    width: 800px;
+}
+
+ul{
+    list-style: none; 
+    width: 800px;
+    border-radius: 3px;
+    margin: 0px auto;
+    background: #000;
+}
+
+
+li{
+    float: left;
+    display: inline;
+    margin: 0;
+}
+
+nav a:link, nav a:visited {
+    color: #fff;
+    display: inline-block;
+    height: 30px;
+    padding: 5px 1.5em;
+    text-decoration: none;
+}
+
+nav a:hover, nav a:active, nav .active a:link, nav .active a:visited{
+    background: #FF3300;
+    color: #FFF;
+    text-shadow: none !important;
+}
+
+nav li:first-child a {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+nav li:last-child a{
+    float: right;
+}
+
+#featured{
+    width: 760px; 
+    background: #fff;
+    margin-bottom: 2em;
+    overflow: hidden;
+    padding: 20px;
+    border-radius: 10px;
 }
 
