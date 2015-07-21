@@ -2,13 +2,12 @@
 /***** Global *****/
 /* Body */
 body {
-    background: #888;
+    background: #ddd;
     color: #000305;
     font-size: 87.5%; /* 14px */
     font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 1.429;
     margin: 0;
-    padding: 0;
     text-align: left;
 }
 
@@ -18,6 +17,14 @@ h1 {
 
 strong {
     font-variant: small-caps;
+    
+}
+
+#established {
+    margin-left: 19%;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    
 }
 
 #top{
@@ -25,11 +32,14 @@ strong {
     border-bottom-left: 5px;
     border-bottom-right: 5px;   
 }
-.body{
-    clear: both;
-    margin: 0 auto;
-    width: 800px;
+
+#logo {
+    display: block;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 
 /* Navigation */
 nav{
@@ -40,15 +50,19 @@ nav{
     margin: 0 auto 2em auto;
     padding: 0;
     text-align: center;
-    width: 800px;
+    width: 90%;
+    background: #000;
+    border-radius: 10px;
+    
 }
 
 ul{
+    padding: 0px;
     list-style: none; 
-    width: 800px;
-    border-radius: 3px;
+    width: 100%;
+    border-radius: 5px;
     margin: 0px auto;
-    background: #000;
+    background: #354;
 }
 
 
@@ -65,8 +79,16 @@ nav a:link, nav a:visited {
     padding: 5px 1.5em;
     text-decoration: none;
 }
-
-nav a:hover, nav a:active, nav .active a:link, nav .active a:visited{
+input{
+    background: #000;
+    color: #fff;
+    border: 0px;
+    font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.01em;
+    padding: 5px 1.5em;
+    height: 40px;
+}
+nav a:hover, nav a:active, nav .active a:link, nav .active a:visited, input:hover, input:active{
     background: #FF3300;
     color: #FFF;
     text-shadow: none !important;
@@ -77,12 +99,22 @@ nav li:first-child a {
     border-bottom-left-radius: 5px;
 }
 
-nav li:last-child a{
-    float: right;
+#container .column {
+			position: relative;
+			float: left;
+}
+
+#container
+{
+    padding-left: 250px;
+    padding-right: 200px;
+    min-width: 550px;
 }
 
 #featured{
-    width: 760px; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%; 
     background: #fff;
     margin-bottom: 2em;
     overflow: hidden;
@@ -90,3 +122,29 @@ nav li:last-child a{
     border-radius: 10px;
 }
 
+#sidepanel
+{
+    padding: 20px;
+    width: 160px;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-right: -200px;
+    
+}
+
+#sidepanel input
+{
+    margin: 15px;
+    margin-left: 0px;
+    
+}
+
+#ad
+{
+    padding: 20px;
+    right: 250px;
+    width: 220px; 
+    margin-left: -100%;
+    
+    
+}
