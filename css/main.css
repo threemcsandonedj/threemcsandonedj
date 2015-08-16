@@ -62,7 +62,7 @@ ul{
     width: 100%;
     border-radius: 5px;
     margin: 0px auto;
-    background: #354;
+/*    background: #354;*/
 }
 
 
@@ -139,12 +139,29 @@ nav li:first-child a {
     
 }
 
-#ad
+#leftpanel
 {
     padding: 20px;
     right: 250px;
     width: 220px; 
     margin-left: -100%;
-    
-    
+    border-radius: 10px;
+    /*background: #000305;*/
+    font-size: 1.143em;
+    line-height: 30px;
+    text-align: center;
+    background: #000;
+
+}
+
+#leftpanel a:link, #leftpanel a:visited {
+    color: #fff;
+    display: inline-block;
+    height: 30px;
+    text-decoration: none;
+}
+#leftpanel a:hover, #leftpanel a:active, #leftpanel .active a:link, #leftpanel .active a:visited, input:hover, input:active{
+    background: #FF3300;
+    color: #FFF;
+    text-shadow: none !important;
 }
