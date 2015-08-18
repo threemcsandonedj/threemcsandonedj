@@ -146,18 +146,24 @@ nav li:first-child a {
     width: 220px; 
     margin-left: -100%;
     border-radius: 10px;
-    /*background: #000305;*/
+    background: #000305;
     font-size: 1.143em;
     line-height: 30px;
     text-align: center;
-    background: #000;
 
+}
+
+#leftpanel h2 {
+    color: #fff;
 }
 
 #leftpanel a:link, #leftpanel a:visited {
     color: #fff;
+    background: #333;
     display: inline-block;
     height: 30px;
+    width: 220px;
+    margin-bottom: 10px;
     text-decoration: none;
 }
 #leftpanel a:hover, #leftpanel a:active, #leftpanel .active a:link, #leftpanel .active a:visited, input:hover, input:active{
