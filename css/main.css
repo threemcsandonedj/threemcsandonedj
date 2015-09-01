@@ -113,6 +113,7 @@ nav li:first-child a {
 
 #main{
     width: -moz-available;
+    width: 100%;
 }
 
 #featured{
