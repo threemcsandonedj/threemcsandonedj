@@ -12,3 +12,7 @@ article ul{
 article li {
 	text-align: center;
 }
+
+#leftpanel{
+    text-align: left;
+}

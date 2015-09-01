@@ -116,7 +116,6 @@ nav li:first-child a {
 }
 
 #featured{
-    min-width: 90%;
     margin-left: auto;
     margin-right: auto;
     width: 90%; 
@@ -151,22 +150,20 @@ nav li:first-child a {
     width: 220px; 
     margin-left: -100%;
     border-radius: 10px;
-    background: #000305;
+    background: #fff;
     font-size: 1.143em;
     line-height: 30px;
-    text-align: left;
-    color: #fff;
-    
+    text-align: center;
 
 }
 
 #leftpanel h2 {
-    color: #fff;
+    color: #000;
 }
 
 #leftpanel a:link, #leftpanel a:visited {
     color: #fff;
-    background: #333;
+    background: #000;
     display: inline-block;
     height: 30px;
     width: 220px;
