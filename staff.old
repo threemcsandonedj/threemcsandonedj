@@ -13,9 +13,10 @@
     </script>
 
     <meta charset="utf-8" />
-    <title>3 MCs & 1 DJ</title>
+    <title>3 MCs & 1 DJ | Staff</title>
 
     <link rel="stylesheet" href="css/main.css" type="text/css" />
+    <link rel="stylesheet" href="css/staff.css" type="text/css" />
   </head>
 
   <body id="index" class="home">
@@ -25,22 +26,40 @@
         <img id="logo" src="images/logo1.png" />
         <strong id="established">Established 2015</strong>
       <nav><ul>
-	  <li class="active"><a href="#">Home</a></li>
+	  <li><a href="./index.html">Home</a></li>
 	  <li><a href="./mumble.html">Mumble</a></li>
-<!--	  <li><a href="#">Staff</a></li>
-	  <li><a href="#">Contact</a></li> -->
+	  <li class="active"><a href="#">Staff</a></li>
+<!--	  <li><a href="#">Contact</a></li> -->
       </ul></nav>
     </header>
+
+
     <div id="container">
       <div id="main" class="column">
       <aside id="featured" class="body"><article>
        <hgroup>
-         <h2>3 MCs & 1 DJ Staff</h2>
+         <h2>Three MCs & 1 DJ Staff </h2>
        </hgroup>
-	<p>Here is a list of the owners and mods of 3mcs. Feel free to contact us in game or on mumble with any questions/concerns/complaints or to just say hi.</p>
+       <p> Here is a list of the owners and mods of 3mcs. Feel free to contact us in game or on mumble with any questions/concerns/complaints or to just say hi.</p>
+       <hgroup>
+         <h3>Owners</h3>
+       </hgroup>
+       <ul>
+         <li id="member">doublebarreldan<img id="memberPic" src="images/creeper.png" /></li> 
+         <li id="member">screamingnak3d<img id="memberPic" src="images/creeper.png" /></li> 
+       </ul>
+       <hgroup>
+	 <h3>Moderators</h3>
+       </hgroup>
+       <ul>
+         <li id="member">boredomsux<img id="memberPic" src="images/creeper.png" /></li> 
+       </ul>
+
 	</article>
 	</aside>
     </div>
+
+
     <div id="sidepanel" class="column">
         If you enjoy the server and would like to continue using it, please consider donating. Your donation will be used to maintain and upgrade the system.
         <form id="donate" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -49,17 +68,10 @@
             <input type="submit" value="Donate" />
         </form>
     </div>
-    <div id="ad" class="column">
-        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- 3mcs main -->
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-7273048419649468"
-             data-ad-slot="3769248236"
-             data-ad-format="auto"></ins>
-        <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
+    <div id="leftpanel" class="column">
+      <h2>Want to become a mod?</h2>
+      <p>Play on the server enough to be recogonized. Be friendly and helpful to the regulars and newbies. Don't assume that we aren't watching when we're not on. We play close attention to the server and will reward those that make it fun</p>
+
     </div>
     </div>
       <!--
