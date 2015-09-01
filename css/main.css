@@ -111,6 +111,10 @@ nav li:first-child a {
     min-width: 550px;
 }
 
+#main{
+    width: -moz-available;
+}
+
 #featured{
     min-width: 90%;
     margin-left: auto;
@@ -150,7 +154,9 @@ nav li:first-child a {
     background: #000305;
     font-size: 1.143em;
     line-height: 30px;
-    text-align: center;
+    text-align: left;
+    color: #fff;
+    
 
 }
 
