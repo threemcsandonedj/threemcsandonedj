@@ -1,0 +1,14 @@
+#member img {
+	width: 200px;
+	height: 200px;
+	display: block;
+	padding: 20px;
+}
+
+article ul{
+	display: inline-block;
+}
+
+article li {
+	text-align: center;
+}
